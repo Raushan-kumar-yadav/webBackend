@@ -9,7 +9,7 @@ import type { Request, Response, NextFunction } from 'express';
  */
 interface MulterRequest extends Request {
   file?: Express.Multer.File;
-  files?: { [fieldname: string]: Express.Multer.File } | Express.Multer.File[];
+  files?: { [fieldname: string]: Express.Multer.File[] } | Express.Multer.File[];
 }
 
 // Ensure upload directory exists

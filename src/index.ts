@@ -1,7 +1,7 @@
 import express ,{json} from 'express';
-import ProductRouter from './routes/products/index.ts';
-import AuthRouter from './routes/auth/index.ts';
-import uploadRouter from './routes/uploadRoute/index.ts';
+import ProductRouter from './routes/products/index.js';
+import AuthRouter from './routes/auth/index.js';
+import uploadRouter from './routes/uploadRoute/index.js';
 
 
 

@@ -1,8 +1,8 @@
 // routes/upload.routes.ts
 import express from 'express';
 
-import { verifyToken } from '../../middleWare/authMidware.ts';
-import { uploadedVideo,uploadedImage, SaveImage, SaveVideo,handleMulterError } from '../products/uploads/index.ts';
+import { verifyToken } from '../../middleWare/authMidware.js';
+import { uploadedVideo,uploadedImage, SaveImage, SaveVideo,handleMulterError } from '../products/uploads/index.js';
 
 
 const uploadRouter = express.Router();

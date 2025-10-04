@@ -1,5 +1,5 @@
-import { FeatureDetailTable, ProductTable,FeatureCardTable, ImageTable, TutorialLinkTable, DownloadCardTable ,LicenceInfoTable,PricingPlan,PlanFeature,BillingOption,PricingMetadata,} from '../../db/productSchema.ts';
-import { db } from '../../db/index.ts';
+import { FeatureDetailTable, ProductTable,FeatureCardTable, ImageTable, TutorialLinkTable, DownloadCardTable ,LicenceInfoTable,PricingPlan,PlanFeature,BillingOption,PricingMetadata,} from '../../db/productSchema.js';
+import { db } from '../../db/index.js';
 import type { Request, Response } from 'express';
 import { eq } from 'drizzle-orm';
 
